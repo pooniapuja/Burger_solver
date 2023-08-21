@@ -1,0 +1,6 @@
+Burgers_parallel.cpp is the main code which we have used for all the calulations. It uses MPI, Blitz++ and MPI-IO. it can be used for either 2D or 3D cases. Comments are available in this code for better understanding of the user. All other codes lack proper comments. So, users are requested to read comments from this code if necessary.
+
+Burgers_seq.cpp is the sequential version of the parallel code. 
+
+'other' folder contains different codes which were developed in the process of developing Burgers_parallel.cpp. These are like older versions of the code except for Burgers_RK2.cpp which uses RK2 scheme instead of simple Euler scheme of Burgers_parallel.cpp.
+
